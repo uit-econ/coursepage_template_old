@@ -1,1 +1,1 @@
-{% include navbar_closed.html %}{% include start.html %}  {% include top-box.html %}
+{% include navbar_closed.html %}{% include start.md %}  {% include top-box.html %}
