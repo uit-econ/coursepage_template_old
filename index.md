@@ -1,4 +1,4 @@
-{% include navbar.html %} {% include top-box.html %} <!-- Kode for å inkludere boksen på toppen av siden. Se _config.yml for å gjøre endringer. -->
+{% include navbar_closed.html %} {% include top-box.html %} <!-- Kode for å inkludere boksen på toppen av siden. Se _config.yml for å gjøre endringer. -->
 
 ## Kursplan  
 
