@@ -11,7 +11,7 @@
 |xx.xx  xx:xx    |Tromsø           |git                 |
 |xx.xx  xx:xx    |Tromsø           |python              |
 |xx.xx  xx:xx    |Tromsø           |R                   |
-|xx.xx  xx:xx    |Tromsø           |Samfunnsøknomi      |
+|xx.xx  xx:xx    |Tromsø           |Samfunnsøkonomi     |
    
 
 
