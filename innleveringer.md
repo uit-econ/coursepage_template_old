@@ -1,4 +1,4 @@
-{% include navbar_open.html %}
+{% include navbar_open.html %}{% include top-box.html %}
 # Sok-xxxx Mikroøkonomi   
 
 ## Innleveringer 
