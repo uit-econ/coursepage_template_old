@@ -5,9 +5,9 @@
 Forelesnings- og seminarplanene inneholder informasjon om tidspunkt, tema, faglærer samt ressurser/oppgaver til hvert tema.  
 Innleveringsplanen gir oppgaver, frister og ressurser i forbindelse med obligatoriske innleveringer.  
 
-- [Forelesningsplan](forelesningsplan.md){:target="blank"}
-- [Seminarplan](seminarplan.md){:target="blank"}
-- [Innleveringsplan](innleveringer.md){:target="blank"}   
+- [Forelesningsplan](forelesningsplan.html){:target="blank"}
+- [Seminarplan](seminarplan.html){:target="blank"}
+- [Innleveringsplan](innleveringer.html){:target="blank"}   
 
 
 [Timeplan](https://timeplan.uit.no/){:target="blank"} på timeplan.uit.no
@@ -48,5 +48,5 @@ Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/){:
 
 Kurset har mappeevaluering. Alle oppgaver er obligatorisk; noen er _arbeidskrav_ (uten karakter), mens andre er karaktergivende.  
 
-Frister, oppgaver og ressurser finnes i [innleveringsplan](innleveringer.md){:target="blank"}.    
+Frister, oppgaver og ressurser finnes i [innleveringsplan](innleveringer.html){:target="blank"}.    
 
