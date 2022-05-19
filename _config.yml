@@ -1,6 +1,6 @@
 
 #----------Instillinger: Boks på toppen av side----------------------------------------------------------------------
-bilde: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-1006.jpg?raw=true #Emnebilde
+bilde: ./assets/img/tema.jpg
 name: Sok-xxxx Mikroøkonomi - Økonomisk atferd, markeder og priser #Emnetittel
 semester: xxx 20xx
 
@@ -13,7 +13,7 @@ topbox-farge: 00617f
 contentbox-farge: ffff;
 contentbox-skygge: 0px 0px 100px 0px rgba(50, 50, 50, 1)
 
-bakgrunn: /assets/img/emneside-bakgrunn.jpg
+bakgrunn: ./assets/img/bakgrunn.jpg
 bakgrunn-farge: 
 
 #Farge tekst
