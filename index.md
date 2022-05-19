@@ -9,34 +9,21 @@ Innleveringsplanen gir oppgaver, frister og ressurser i forbindelse med obligato
 - [Seminarplan](seminarplan.md){:target="blank"}
 - [Innleveringsplan](innleveringer.md){:target="blank"}   
 
-Opptak av forelesningene og forelesningsnotater ligger på Canvas siden til [SOK-1002](https://uit.instructure.com/courses/25810){:target="blank"} som har samme forelesningsrekke som dette kurset.
 
-
-
-[Timeplan](https://timeplan.uit.no/emne_timeplan.php?sem=22v&module[%20]=SOK-1006-1#week-49){:target="blank"} på timeplan.uit.no
+[Timeplan](https://timeplan.uit.no/){:target="blank"} på timeplan.uit.no
 
 
 ## Kursbeskrivelse 
 
-Kurset tas normalt i andre semester, og teller 10 studiepoeng.  
-[Læringsutbyttebeskrivelse](https://uit.no/utdanning/emner/emne?p_document_id=743172){:target="blank"}   
 
-Kurset består av forelesninger og en seminarrekke (workshop). Forelesningene følger SOK-1002. Seminarene er kun for dette kurset og tar sikte på å koble fagstoff fra forelesninger til verktøy som dere har lært.   
+Kurset består av ulike interessante tema  
 
-NB. Dere følger kun forelesningene til sok-1002, og behøver ikke å gjøre noen av arbeidskravene eller eksamen fra det kurset.   
 
 ## Faglærerinfo  
-
-### Forelesninger 
-
-[Joachim Thøgersen](https://www.oslomet.no/om/ansatt/joachim/){:target="blank"}, OsloMet
-
-### Seminar/Workshop
-
 - [Derek J. Clark](https://uit.no/ansatte/derek.clark){:target="blank"} (fagansvarlig)
 - [Espen Sirnes](https://uit.no/ansatte/person?p_document_id=41418){:target="blank"}
 
- 
+
 
 ## Administrative spørsmål
 
@@ -47,17 +34,14 @@ For henvendelser av administrative art send e-post til: <hhcampus@hjelp.uit.no>.
 
 ### Pensum til forelesningene
 
-[Leganto](https://bibsys-c.alma.exlibrisgroup.com/leganto/readinglist/lists/8768094470002205?institute=47BIBSYS_UBTO&auth=SAML){:target="blank"}  
-
-### Pensum til seminarene   
-Se [Seminarplan](seminarplan.md){:target="blank"}    
+[Leganto](https://bibsys-c.alma.exlibrisgroup.com/leganto/){:target="blank"}  
 
 
 
 
 ## Kunngjøringer  
 
-Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/courses/25566){:target="blank"}.
+Kunngjøringer og beskjeder legges ut i [Canvas](https://uit.instructure.com/){:target="blank"}.
 
 
 ## Innlevering og eksamen  
