@@ -1,5 +1,5 @@
 {% include navbar_open.html %}
-# Sok-1006 Mikroøkonomi   
+# Sok-xxxx Mikroøkonomi   
 
 ## Innleveringer 
 
