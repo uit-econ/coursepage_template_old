@@ -57,7 +57,3 @@ The first thing we need to do is to create an "organization", which will own the
 			
 		
 		
-		
-		
-		
-		
