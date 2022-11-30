@@ -26,7 +26,7 @@ The first thing we need to do is to create an "organization", which will own the
 
 1. In the organization menu, click "Repositories", and click "Create a new repository"<br><br> ![image](https://uit-econ.github.io/images/new_repo.png)
 2. In the "Repository template" dropdown, select "uit-econ/coursepage_template"<br> ![image](https://uit-econ.github.io/images/reposettings.png)
-4. IMPORTANT! Change the "Owner" to the organization you just created. 
+4. **IMPORTANT!** Change the "Owner" to the organization you just created. 
 3. Name the tempalte extactly the same as the organization name, but append ".github.io" to the name.<br>
 For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
@@ -54,7 +54,10 @@ NOTE! The markup files are converted to html-files f you want to link to a markd
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
-IMPORTANT: If you create new markup (.md) files, allways put \{\% include navbar_open.html \%\}\{\% include top-box.html \%\} in the top of the document. This ensures that the left menu and the top heading box are loaded with the page. 
+
+**IMPORTANT!** If you create new markup (.md) files, allways put **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** in the top of the document. This ensures that the left menu and the top heading box are loaded with the page.<br><br>
+
+The exception from this rule is "start.md" that should ***not*** have the curly bracket expression in the top. 
 			
 		
 		
