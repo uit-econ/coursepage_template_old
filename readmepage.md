@@ -12,15 +12,11 @@ The first thing we need to do is to create an "organization", which will own the
 3. Select "Create organization"
 4. Choose the "Create a free organization" option
 5. Use the following setup:
-    a) Name your organization using the convension "uit-\<course_code\>-\<semester\>\<year\>.<br>
-\<course_code\> can for example be SOK-1006.<br>
-\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>
-If you don't understand what \<year\> means, you need to quit now.
-For example, the name can be uit-sok-1006-v23.
-    b) Enter your e-mail
-    c) Select "A business or institution"
-    d) Enter "UiT The Arctic University of Norway" as name of institution. 
-    e) Accept the terms and click "Next"
+	1. Name your organization using the convension **"uit-\<course_code\>-\<semester\>\<year\>**".<br>\<course_code\> can for example be SOK-1006.<br>\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>If you don't understand what \<year\> means, you need to quit now.<br>For example, the name can be uit-sok-1006-v23.<br>
+	2. Enter your e-mail
+	3. Select "A business or institution"
+	4. Enter "UiT The Arctic University of Norway" as name of institution. 
+	5. Accept the terms and click "Next"
 6. Add the github usernames of the colleagues that shall participate in the coursem and click "Complete setup"
 7. Enter your github password
 8. Click your icon in the upper right corner, and select "Your organizations"
@@ -42,12 +38,15 @@ The purpose of this is to make the repository the default page of the organizati
 3. If you cannot see the "github-pages" link, even after waiting for a few minuttes, enable the web interface by clicking "Settings" in the repo menu, "Pages" in the left pane and "main" in the "Branch" dropdown. Then click "Save".
 			
 ## 4. Edit the repository
-1. Edit the settings-file "_config.yml". You only need to edit the first three lines (unless you want to edit the advanced settings). The first three lines are:
+1. Edit the settings-file "\_config.yml". You only need to edit the first three lines (unless you want to edit the advanced settings). The first three lines are:
 
-	
-**name: Sok-xxxx Emnetittel**: Required. Must be changed to the current course code and course name.<br><br>
-**semester: Høst/Vår 20xx**: Required. Must be changed to the current semester.<br><br>
-**image: tema.jpg**: Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name.<br><br>
+	* **name: Sok-xxxx Emnetittel**: <br>
+	Required. Must be changed to the current course code and course name.<br><br>
+	* **semester: Høst/Vår 20xx**:<br>
+	Required. Must be changed to the current semester.<br><br>
+	* **image: tema.jpg**:<br>
+	Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name.<br><br>
+
 
 1. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page")
 You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
