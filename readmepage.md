@@ -9,31 +9,31 @@ The first thing we need to do is to create an "organization", which will own the
 1. Log in to github.com
 2. Click on your username in the left panel 
    (if you don't se your user name, type in "github.com" in the web adress field")
-3. Select "Create organization"
-4. Choose the "Create a free organization" option
+3. Select "Create organization" ![image](https://uit-econ.github.io/images/createorg.png)
+4. Choose the "Create a free organization" option ![image](https://uit-econ.github.io/images/createfreeorg.png)
 5. Use the following setup:
 	1. Name your organization using the convension **"uit-\<course_code\>-\<semester\>\<year\>**".<br>\<course_code\> can for example be SOK-1006.<br>\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>If you don't understand what \<year\> means, you need to quit now.<br>For example, the name can be uit-sok-1006-v23.<br>
 	2. Enter your e-mail
 	3. Select "A business or institution"
 	4. Enter "UiT The Arctic University of Norway" as name of institution. 
-	5. Accept the terms and click "Next"
-6. Add the github usernames of the colleagues that shall participate in the coursem and click "Complete setup"
-7. Enter your github password
-8. Click your icon in the upper right corner, and select "Your organizations"
+	5. Accept the terms and click "Next" ![image](https://uit-econ.github.io/images/setup.png)
+6. Add the github usernames of the colleagues that shall participate in the coursem and click "Complete setup" ![image](https://uit-econ.github.io/images/addcolleagues.png)
+7. Enter your github password ![image](https://uit-econ.github.io/images/password.png)
+8. Click your icon in the upper right corner, and select "Your organizations" ![image](https://uit-econ.github.io/images/selectorganizations.png)
 9. Click on the organization you just created
 		
 ## 2. Create the course repository
 
-1. In the organization menu, click "Repositories", and click "Create a new repository"
+1. In the organization menu, click "Repositories", and click "Create a new repository" ![image](https://uit-econ.github.io/images/new_repo.png)
 2. In the "Repository template" dropdown, select "uit-econ/coursepage_template"
 4. IMPORTANT! Change the "Owner" to the organization you just created. 
 3. Name the tempalte extactly the same as the organization name, but append ".github.io" to the name.<br>
 For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
-4. Select the "Public" option and click "Create repository"
+4. Select the "Public" option and click "Create repository" ![image](https://uit-econ.github.io/images/reposettings.png)
 		
 ## 3. View the "repo" (repository) homepage
-1. Locate the "github-pages" link down to the right in your repository (under the Code menu), and click it. 
+1. Locate the "github-pages" link down to the right in your repository (under the Code menu), and click it. ![image](https://uit-econ.github.io/images/githubpages.png)
 2. Click on the "View deployment" in the following page, and you will see your new course page (can take a couple of minutes befor it is ready)
 3. If you cannot see the "github-pages" link, even after waiting for a few minuttes, enable the web interface by clicking "Settings" in the repo menu, "Pages" in the left pane and "main" in the "Branch" dropdown. Then click "Save".
 			
@@ -45,15 +45,15 @@ The purpose of this is to make the repository the default page of the organizati
 	* **semester: Høst/Vår 20xx**:<br>
 	Required. Must be changed to the current semester.<br><br>
 	* **image: tema.jpg**:<br>
-	Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name.<br><br>
+	Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name. ![image](https://uit-econ.github.io/images/editconfig.png)<br><br>
 
 
-1. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page")
+1. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page") in "navbar.html".
 You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
-NOTE! The markup files are converted to html-files f you want to link to a markdown *.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page.
+NOTE! The markup files are converted to html-files f you want to link to a markdown \*.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page. ![image](https://uit-econ.github.io/images/editnavigate.png)
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
-turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md").<br><br>
+turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
 IMPORTANT: If you create new markup (.md) files, allways put \{\% include navbar_open.html \%\}\{\% include top-box.html \%\} in the top of the document. This ensures that the left menu and the top heading box are loaded with the page. 
 			
 		
