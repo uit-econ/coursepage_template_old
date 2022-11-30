@@ -12,15 +12,15 @@ The first thing we need to do is to create an "organization", which will own the
 3. Select "Create organization"
 4. Choose the "Create a free organization" option
 5. Use the following setup:
-a) Name your organization using the convension "uit-\<course_code\>-\<semester\>\<year\>. 
-\<course_code\> can for example be SOK-1006.
-\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).
+    a) Name your organization using the convension "uit-\<course_code\>-\<semester\>\<year\>.<br>
+\<course_code\> can for example be SOK-1006.<br>
+\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>
 If you don't understand what \<year\> means, you need to quit now.
-For example, the name can be uit-sok-1006-v23. 
-b) Enter your e-mail
-c) Select "A business or institution"
-d) Enter "UiT The Arctic University of Norway" as name of institution. 
-e) Accept the terms and click "Next"
+For example, the name can be uit-sok-1006-v23.
+    b) Enter your e-mail
+    c) Select "A business or institution"
+    d) Enter "UiT The Arctic University of Norway" as name of institution. 
+    e) Accept the terms and click "Next"
 6. Add the github usernames of the colleagues that shall participate in the coursem and click "Complete setup"
 7. Enter your github password
 8. Click your icon in the upper right corner, and select "Your organizations"
@@ -31,8 +31,8 @@ e) Accept the terms and click "Next"
 1. In the organization menu, click "Repositories", and click "Create a new repository"
 2. In the "Repository template" dropdown, select "uit-econ/coursepage_template"
 4. IMPORTANT! Change the "Owner" to the organization you just created. 
-3. Name the tempalte extactly the same as the organization name, but append ".github.io" to the name. 
-For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io". 
+3. Name the tempalte extactly the same as the organization name, but append ".github.io" to the name.<br>
+For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
 4. Select the "Public" option and click "Create repository"
 		
@@ -45,18 +45,16 @@ The purpose of this is to make the repository the default page of the organizati
 1. Edit the settings-file "_config.yml". You only need to edit the first three lines (unless you want to edit the advanced settings). The first three lines are:
 
 	
-**name: Sok-xxxx Emnetittel**: Required. Must be changed to the current course code and course name.
-**semester: Høst/Vår 20xx**: Required. Must be changed to the current semester.
-**image: tema.jpg**: Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name.
+**name: Sok-xxxx Emnetittel**: Required. Must be changed to the current course code and course name.<br><br>
+**semester: Høst/Vår 20xx**: Required. Must be changed to the current semester.<br><br>
+**image: tema.jpg**: Optional. You can upload another picture, if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name.<br><br>
 
 1. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page")
-You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it. 
-	
+You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
 NOTE! The markup files are converted to html-files f you want to link to a markdown *.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page.
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
-turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md").
-	
+turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md").<br><br>
 IMPORTANT: If you create new markup (.md) files, allways put {% include navbar_open.html %}{% include top-box.html %} in the top of the document. This ensures that the left menu and the top heading box are loaded with the page. 
 			
 		
