@@ -50,7 +50,7 @@ The purpose of this is to make the repository the default page of the organizati
 
 1. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page") in "navbar.html".
 You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
-NOTE! The markup files are converted to html-files f you want to link to a markdown \*.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page. ![image](https://uit-econ.github.io/images/editnavigate.png)
+NOTE! The markup files are converted to html-files f you want to link to a markdown \*.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page.<br> ![image](https://uit-econ.github.io/images/editnavigate.png)
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
