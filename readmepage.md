@@ -54,7 +54,7 @@ NOTE! The markup files are converted to html-files f you want to link to a markd
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md").<br><br>
-IMPORTANT: If you create new markup (.md) files, allways put {% include navbar_open.html %}{% include top-box.html %} in the top of the document. This ensures that the left menu and the top heading box are loaded with the page. 
+IMPORTANT: If you create new markup (.md) files, allways put \{\% include navbar_open.html \%\}\{\% include top-box.html \%\} in the top of the document. This ensures that the left menu and the top heading box are loaded with the page. 
 			
 		
 		
