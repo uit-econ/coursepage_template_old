@@ -10,9 +10,9 @@ The first thing we need to do is to create an "organization", which will own the
 2. Click on your username in the left panel 
    (if you don't se your user name, type in "github.com" in the web adress field")
 3. Select "Create organization" ![image](https://uit-econ.github.io/images/createorg.png)
-4. Choose the "Create a free organization" option ![image](https://uit-econ.github.io/images/createfreeorg.png)
+4. Choose the "Create a free organization" option <br> ![image](https://uit-econ.github.io/images/createfreeorg.png)
 5. Use the following setup:
-	1. Name your organization using the convension **"uit-\<course_code\>-\<semester\>\<year\>**".<br>\<course_code\> can for example be SOK-1006.<br>\<semester\> can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>If you don't understand what \<year\> means, you need to quit now.<br>For example, the name can be uit-sok-1006-v23.<br>
+	1. Name your organization using the convension **"uit-\<course_code\>-\<semester\>\<year\>**".<br>**\<course_code\>** can for example be SOK-1006.<br>**\<semester\>** can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>If you don't understand what **\<year\>** means, you need to quit now.<br><br>For example, the name can be uit-sok-1006-v23.<br>
 	2. Enter your e-mail
 	3. Select "A business or institution"
 	4. Enter "UiT The Arctic University of Norway" as name of institution. 
