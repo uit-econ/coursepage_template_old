@@ -1,6 +1,6 @@
 {% include navbar_open.html %}{% include top-box.html %}
 
-# How to set ut a course page
+# How to set up a course page
 
 ## 1. Create an organization
 
