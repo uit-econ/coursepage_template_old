@@ -1,4 +1,6 @@
 
+## [Slik lager du et kursrepositorie](readme_no.html){:target="blank"} (Slettes)
+
 
 ## Kursplan  
 
