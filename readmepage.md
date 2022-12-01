@@ -69,9 +69,9 @@ In order for your course page to be available from the [main page](https://uit-e
 2. Click on the course you are responsible for, and edit it (click on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
 3. The document may contain a course description, or not. <br>
 	1. If it does not contain a course description, you will find a code that look like this in the document:<br><br>
-	`---`<br>
-	`\{\% include nettsideApnerTop.html \%\}`<br>
-	`window.open('https://uit-sok-1006-v22.github.io/');`<br><br>
+	---<br>
+	\{\% include nettsideApnerTop.html \%\}<br>
+	window.open('https://uit-sok-1006-v22.github.io/');<br><br>
 	Replace the link with the one to the homepage you created in step 3.<br><br>
 	2. If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
 	In that case, remove the description (copy it and use it on course homepage you created if you want) and replace it with the code above, with a link to your newly created course homepage.  <br><br>
