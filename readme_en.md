@@ -4,6 +4,7 @@
 <div align="right">
 <a href=readme_no.html"><img src="https://uit-econ.github.io/images/Norway.png"></a>
 </div>
+
 # How to set up a course page
 
 ## 1. Create an organization
