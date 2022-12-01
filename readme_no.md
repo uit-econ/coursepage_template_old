@@ -1,5 +1,6 @@
 
 {% include navbar_open.html %}{% include top-box.html %}
+[![image](https://uit-econ.github.io/images/GB.png)](readme_en.html)<br><br>
 
 # Hvordan lage en kursside
 
