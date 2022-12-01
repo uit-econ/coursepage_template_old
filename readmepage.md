@@ -89,7 +89,7 @@ src="replace with the link to your github homepage"<br>
 width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;<br>
 <br></div>
 <br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
-4. Replace `<replace with the link to your github homepage>` with the link to the homepage you created in step 3.<br><br>
+4. Replace `replace with the link to your github homepage` with the link to the homepage you created in step 3.<br><br>
 			
 		
 	
