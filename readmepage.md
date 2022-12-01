@@ -69,11 +69,20 @@ In order for your course page to be available from the [main page](https://uit-e
 	`{% include nettsideApnerTop.html %}`<br>
 	`window.open('https://uit-sok-1006-v22.github.io/');`<br>
 	Replace the link with the one to the hompage you created in step 3.<br><br>
-	2. If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br>![image](https://uit-econ.github.io/images/editmainpage_contents.png)<br><br>
+	2. If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
 	In that case, remove the description (copy it and use it on course homepage you created if you want) and replace it with the code above, with a link to your newly created course hompe page.  
 
-## 6. Add your course page to the Canvas room
-
+## 6. Embed course page into the Canvas room
+This will show you how you embed the course page into Canvas. 
+1. Go to [Canvas](https://uit.instructure.com/) and select the course you are responsible for <br>![image](https://uit-econ.github.io/images/canvasorig.png)
+2. Click the "Rediger"/"Edit" button up to the right, and then click the "edit html" symbol down to the right <br>![image](https://uit-econ.github.io/images/canvashtmledit.png)
+3. Delete all the html-contents, and paste in<br><br>
+`<p><iframe style="overflow: hidden;"`<br>
+`src="<replace with the link to your github homepage>"`<br>
+`width="1500" height="3000"></iframe></p>`<br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br>
+4. Replace `<replace with the link to your github homepage>` with the link to the hompage you created in step 3.<br><br>
 			
 		
+	
+**YOUR DONE!!!!**
 		
