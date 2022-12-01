@@ -1,8 +1,9 @@
 
 {% include navbar_open.html %}{% include top-box.html %}
 <br><br><br>
+<div align="left">
 [![image](https://uit-econ.github.io/images/GB.png)](readme_en.html)<br><br>
-
+<div>
 # Hvordan lage en kursside
 
 ## 1. Lage en organisasjon
