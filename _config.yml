@@ -1,6 +1,6 @@
 
 #----------Instillinger: Boks på toppen av side----------------------------------------------------------------------
-title: Sok-xxxx Emnetittel #Emnetittel
+name: Sok-xxxx Emnetittel #Emnetittel
 semester: Høst/Vår 20xx 
 image: tema.jpg
 
@@ -22,7 +22,8 @@ sekundaerfarge: #Farge generell tekst
 linkfarge: f2a900 #Farge linker
 
 uitlogo: ./assets/img/uit.png
-
+#Skal stå tom
+title: ''
 
 
 
