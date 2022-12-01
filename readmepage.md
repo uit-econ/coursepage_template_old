@@ -69,10 +69,10 @@ In order for your course page to be available from the [main page](https://uit-e
 2. Click on the course you are responsible for, and edit it (click on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
 3. The document may contain a course description, or not. <br>
 	* If it does not contain a course description, you will find a code that look like this in the document:<br><br>
-	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
+	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160"><br>
 	---<br>
 	&#123;% include nettsideApnerTop.html %&#125;<br>
-	window.open('replace with the link to your github homepage');
+	window.open('replace with the link to your github homepage');<br>
 	<br></div><br><br>
 	Replace the link with the one to the homepage you created in step 3.<br><br>
 	* If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
@@ -83,10 +83,10 @@ This will show you how you embed the course page into Canvas.
 1. Go to [Canvas](https://uit.instructure.com/) and select the course you are responsible for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
 2. Click the "Rediger"/"Edit" button up to the right, and then click the "edit html" symbol down to the right <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
 3. Delete all the html-contents, and paste in<br><br>
-<div style="background-color:#f6f8fa;font-family:Courier; padding-left:40"><br>
+<div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
 &lt;p&gt;&lt;iframe style="overflow: hidden;"<br>
 src="replace with the link to your github homepage"<br>
-width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;
+width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;<br>
 <br></div>
 <br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
 4. Replace `<replace with the link to your github homepage>` with the link to the homepage you created in step 3.<br><br>
