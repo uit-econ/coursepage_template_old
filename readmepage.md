@@ -1,10 +1,11 @@
 
 {% include navbar_open.html %}{% include top-box.html %}
 
-<p bgcolor="grey">
-Test
-</p>
-<span style="color:blue">some *blue* text</span>.
+
+<span style="background-color:grey">
+Testing
+testing
+</span>
 
 
 # How to set up a course page
