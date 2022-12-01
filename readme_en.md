@@ -1,5 +1,6 @@
 
 {% include navbar_open.html %}{% include top-box.html %}
+<br><br><br>
 [![image](https://uit-econ.github.io/images/Norway.png)](readme_no.html)<br><br>
 
 # How to set up a course page
