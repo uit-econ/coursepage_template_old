@@ -2,7 +2,7 @@
 {% include navbar_open.html %}{% include top-box.html %}
 <br><br><br>
 <div align="right">
-<a href=readme_no.html"><img src="https://uit-econ.github.io/images/Norway.png"></a>
+<a href="readme_no.html"><img src="https://uit-econ.github.io/images/Norway.png"></a>
 </div>
 
 # How to set up a course page
