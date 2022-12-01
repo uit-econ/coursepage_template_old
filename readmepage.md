@@ -10,14 +10,15 @@ The first thing we need to do is to create an "organization", which will own the
 2. Click on your username in the left panel 
    (if you don't se your user name, type in "github.com" in the web adress field")
 3. Select "Create organization" ![image](https://uit-econ.github.io/images/createorg.png)
-4. Choose the "Create a free organization" option <br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
+4. Choose the "Create a free organization" option <br><br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
 5. Use the following setup:
-	1. Name your organization using the convension `uit-<course_code>-<semester><year>`.<br>`<course_code>` can for example be SOK-1006.<br>`<semester>` can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>  In place of `<year>`, use the last two digit.<br><br>
+	1. Name your organization using the naming convention<br><br> 
+	`uit-<course_code>-<semester><year>`.<br><br>`<course_code>` can for example be SOK-1006.<br>`<semester>` can be either "h" or "v" (Norwegian) or "f" or "s" (English).<br>Use the last two digits in `<year>`.<br><br>
 	For example, the name can be `uit-sok-1006-v23`.<br><br>
 	3. Enter your e-mail
 	4. Select "A business or institution"
 	5. Enter "UiT The Arctic University of Norway" as name of institution.<br><br>
-	6. Accept the terms and click "Next"<br><br> ![image](https://uit-econ.github.io/images/setup.png)
+	6. Accept the terms and click "Next"<br><br> ![image](https://uit-econ.github.io/images/setup.png)<br><br>
 6. Add the github usernames of the colleagues that shall participate in the coursem and click "Complete setup"<br><br> ![image](https://uit-econ.github.io/images/addcolleagues.png)
 7. Enter your github password <br><br> ![image](https://uit-econ.github.io/images/password.png)
 8. Click your icon in the upper right corner, and select "Your organizations"<br><br> ![image](https://uit-econ.github.io/images/selectorganizations.png)<br><br>
