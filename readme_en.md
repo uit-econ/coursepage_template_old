@@ -25,36 +25,36 @@ The first thing we need to do is to create an "organization", which will own the
 8. Click your icon in the upper right corner, and select "Your organizations"<br><br> ![image](https://uit-econ.github.io/images/selectorganizations.png)<br><br>
 9. Click on the organization you just created<br><br>
 		
-## 2. Create the course repository
+## 2. Create the course repository (repo)
 
 1. In the organization menu, click "Repositories", and click "Create a new repository"<br><br> ![image](https://uit-econ.github.io/images/new_repo.png)
 2. In the "Repository template" dropdown, select "uit-econ/coursepage_template"<br> ![image](https://uit-econ.github.io/images/reposettings.png)
 4. **IMPORTANT!** Change the "Owner" to the organization you just created. 
-3. Name the template exactly the same as the organization name, but append ".github.io" to the name.<br>
+3. Name the repo exactly the same as the organization name, but append ".github.io" to the name.<br>
 For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
 4. Select the "Public" option and click "Create repository" 
 		
-## 3. View the "repo" (repository) homepage
-1. Locate the "github-pages" link down to the right in your repository (under the Code menu), and click it.<br><br>
+## 3. View the repo homepage
+1. Locate the "github-pages" link down to the right in your repository, and click it.<br><br>
 ![image](https://uit-econ.github.io/images/githubpages.png)<br><br>
-3. Click on the "View deployment" in the following page, and you will see your new course page (can take a couple of minutes before it is ready)
+3. Click on the "View deployment" in the following page, and you will see your new course page (can take a couple of minutes before it is ready, so you might have to refresh the brower a couple of times)
 4. If you cannot see the "github-pages" link, even after waiting for a few minutes, enable the web interface by clicking "Settings" in the repo menu, "Pages" in the left pane and "main" in the "Branch" dropdown. Then click "Save".<br><br>
 			
-## 4. Edit the repository
-1. Edit the settings-file "\_config.yml". You only need to edit the first three lines (unless you want to edit the advanced settings). The first three lines are:
+## 4. Edit the repo
+1. Edit the settings-file "\_config.yml" by clicking on the pen-icon up to the right. <br><br> You only need to edit the first three lines (unless you want to edit the advanced settings). The first three lines are:
 
 	* **name: Sok-xxxx Emnetittel**: <br>
 	Required. Must be changed to the current course code and course name.<br><br>
 	* **semester: Høst/Vår 20xx**:<br>
 	Required. Must be changed to the current semester.<br><br>
 	* **image: tema.jpg**:<br>
-	Optional. You can upload another picture if you want. If it has another name than "tema.jpg", you need to change this to the correct name, or just delete "tema.jpg" and upload a new image with the same name. ![image](https://uit-econ.github.io/images/editconfig.png)<br><br>
+	Optional. You can upload another picture if you want. If it has another name than "tema.jpg", you need to change this to the correct name. However you can also just delete "tema.jpg" and upload a new image with the same name. ![image](https://uit-econ.github.io/images/editconfig0.png)<br><br>
 
 
-2. Edit the left menu by editing the file "navbar.html". Begin by removing the link to this document ("How to set up the course page") in "navbar.html".
-You can edit the links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
-NOTE! The markup files are converted to html-files f you want to link to a markdown \*.md-file, you must change the file extension from ".md" to ".html". since the markdown files are changed to html files when published on the web page.<br><br> ![image](https://uit-econ.github.io/images/editnavigate.png)
+2. Edit the left menu of the homepage by editing the file "navbar.html". Begin by removing the link to this document ("Hvordan sette opp en kursside").
+You can edit existing links by changing the link address and the link text. If you need more items, just copy one of the links and change it.<br><br> 
+**NOTE!** The markup files are automatically converted to html-files. If you want to link to a markdown \*.md-file, you must change the file extension from ".md" to ".html". <br><br> ![image](https://uit-econ.github.io/images/editnavigate.png)
 
 3. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 tutorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
@@ -65,23 +65,23 @@ The files "index.md" and "index_open.md" should not be edited. <br><br>
 ## 5. Edit the *Samfunnsøkonomi med datavitenskap* main page
 In order for your course page to be available from the [main page](https://uit-econ.github.io/), you need to edit the corresponding item there. 
 
-1. Go to the `\_portfolio` folder in the `uit-econ.github.io` repository in the main page organization (`uit-econ`) here: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
+1. Go to the `\_portfolio` folder in the `uit-econ.github.io` repository in the main page organization `uit-econ` here: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
 2. Click on the course you are responsible for, and edit it (click on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
-3. The document may contain a course description, or not. <br>
+3. The document you just opened may contain a course description, or not. <br>
 	* If it does not contain a course description, you will find a code that look like this in the document:<br><br>
 	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160"><br>
 	---<br>
 	&#123;% include nettsideApnerTop.html %&#125;<br>
-	window.open('replace with the link to your github homepage');<br>
+	window.open('replace with the link to your github course page');<br>
 	<br></div><br><br>
 	Replace the link with the one to the homepage you created in step 3.<br><br>
 	* If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
-	In that case, remove the description (copy it and use it on course homepage you created if you want) and replace it with the code above, with a link to your newly created course homepage.  <br><br>
+	In that case, remove the description (copy it and use it on course homepage you created if you want) and paste the code above, with the course page address in stead of `replace with the link to your github course page`.  <br><br>
 
 ## 6. Embed course page into the Canvas room
 This will show you how you embed the course page into Canvas. 
 1. Go to [Canvas](https://uit.instructure.com/) and select the course you are responsible for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
-2. Click the "Rediger"/"Edit" button up to the right, and then click the "edit html" symbol down to the right <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
+2. Click the "Rediger"/"Edit" button up to the right, and then click the  "< >" (edit html) symbol down to the right <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
 3. Delete all the html-contents, and paste in<br><br>
 <div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
 &lt;p&gt;&lt;iframe style="overflow: hidden;"<br>
