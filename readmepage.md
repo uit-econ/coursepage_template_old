@@ -54,10 +54,26 @@ NOTE! The markup files are converted to html-files f you want to link to a markd
 
 2. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 turorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
-
 **IMPORTANT!** If you create new markup (.md) files, allways put **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** in the top of the document. This ensures that the left menu and the top heading box are loaded with the page.<br><br>
+The exception from this rule is "start.md" that should ***not*** have the curly bracket expression in the top.<br><br>
+The files "index.md" and "index_open.md" should not be edited. 
 
-The exception from this rule is "start.md" that should ***not*** have the curly bracket expression in the top. 
+## 5. Edit the *Samfunnsøkonomi med datavitenskap* main page
+In order for your course page to be available from the [main page](https://uit-econ.github.io/), you need to edit the correpsonding item there. 
+
+1. Go to the `\_portfolio` folder in the `uit-econ.github.io` repository in the main page organization (`uit-econ`) here: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)
+2. Click on the course you are responsible for, and edit it (clik on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)
+3. The document may contain a course description, or not. 
+	1. If it does not contain a course description, you will find a code that look like this in the document:<br><br>
+	`---`<br>
+	`{% include nettsideApnerTop.html %}`<br>
+	`window.open('https://uit-sok-1006-v22.github.io/');`<br>
+	Replace the link with the one to the hompage you created in step 3.<br><br>
+	2. If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br>![image](https://uit-econ.github.io/images/editmainpage_contents.png)<br><br>
+	In that case, remove the description (copy it and use it on course homepage you created if you want) and replace it with the code above, with a link to your newly created course hompe page.  
+
+## 6. Add your course page to the Canvas room
+
 			
 		
 		
