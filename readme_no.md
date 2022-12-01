@@ -86,11 +86,13 @@ For å gjøre kurssiden tilgjengelig for studentene fra[hovedsiden](https://uit-
 Slik bygger du kursets hjemmeside inn i Canvas:
 1. Gå til [Canvas](https://uit.instructure.com/) og velg kurset som du er ansvarlig for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
 2. Klikk "Rediger"-knappen oppe til høyre, og klikk så "< >" symbolet (rediger html) nede til høyre <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
-3. Slett alt html-innhold og lim inn<br><br><div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
-&lt;p&gt;&lt;iframe style="overflow: hidden;"<br>
-src="bytt ut med lenken til din kursside"<br>
-width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;<br>
-<br></div><br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
+3. Slett alt html-innhold og lim inn<br><br>
+	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
+		&lt;p&gt;&lt;iframe style="overflow: hidden;"<br>
+		src="bytt ut med lenken til din kursside"<br>
+		width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;<br>
+		<br>
+	</div><br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
 4. Slett `bytt ut med lenken til din kursside` og lim istedet inn lenken til kurssiden<br><br>
 			
 		
