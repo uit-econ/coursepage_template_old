@@ -4,6 +4,7 @@
 <div align="right">
 	<a href=readme_en.html"><img src="https://uit-econ.github.io/images/GB.png"></a>
 </div>
+										   
 # Hvordan lage en kursside
 
 ## 1. Lage en organisasjon
