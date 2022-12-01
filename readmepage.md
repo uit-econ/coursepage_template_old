@@ -1,13 +1,6 @@
 
 {% include navbar_open.html %}{% include top-box.html %}
 
-
-<span style="background-color:grey">
-Testing
-testing
-</span>
-
-
 # How to set up a course page
 
 ## 1. Create an organization
@@ -86,11 +79,11 @@ This will show you how you embed the course page into Canvas.
 1. Go to [Canvas](https://uit.instructure.com/) and select the course you are responsible for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
 2. Click the "Rediger"/"Edit" button up to the right, and then click the "edit html" symbol down to the right <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
 3. Delete all the html-contents, and paste in<br><br>
-```
+<div style="background-color:#f6f8fa">
 \<p\>\<iframe style="overflow: hidden;"
 src="\<replace with the link to your github homepage\>"
 width="1500" height="3000"\>\</iframe\>\</p\>
-```
+</div>
 <br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
 4. Replace `<replace with the link to your github homepage>` with the link to the homepage you created in step 3.<br><br>
 			
