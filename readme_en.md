@@ -86,16 +86,13 @@ In order for your course page to be available from the [main page](https://uit-e
 This will show you how you embed the course page into Canvas. 
 1. Go to [Canvas](https://uit.instructure.com/) and select the course you are responsible for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
 2. Click the "Rediger"/"Edit" button up to the right, and then click the  "< >" (edit html) symbol down to the right <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
-3. Delete all the html-contents, and paste in<br><br>
-<div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
+3. Delete all the html-contents, and paste in<br><br><div style="background-color:#f6f8fa;font-family:Courier; padding-left:80"><br>
 &lt;p&gt;&lt;iframe style="overflow: hidden;"<br>
 src="replace with the link to your github homepage"<br>
 width="1500" height="3000"&gt;&lt;/iframe&gt;&lt;/p&gt;<br>
-<br></div>
-<br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
+<br></div><br><br>![image](https://uit-econ.github.io/images/canvashtmlnew.png)<br><br>
 4. Replace `replace with the link to your github homepage` with the link to the homepage you created in step 3.<br><br>
 			
-		
-	
+
 **YOUR DONE!!!!**
 		
