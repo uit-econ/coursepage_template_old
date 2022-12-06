@@ -32,8 +32,8 @@ The first thing we need to do is to create an "organization", which will own the
 
 1. Go to this repository: https://github.com/uit-econ/coursepage_template 
 2. Click "Use this template" and "Create new repository" ![image](https://uit-econ.github.io/images/createnewrepo.png)
-3. **IMPORTANT!** Change the "Owner" to the organization you just created. <br>
-4. Name the repo exactly the same as the organization name, but append ".github.io" to the name.![image](https://uit-econ.github.io/images/reposettings.png)<br>
+3. **IMPORTANT!** Change the "Owner" to the organization you just created. <br>![image](https://uit-econ.github.io/images/reposettings.png)
+4. Name the repo exactly the same as the organization name, but append ".github.io" to the name.<br>
 For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
 5. Select the "Public" option and click "Create repository" 
