@@ -32,7 +32,7 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 
 1. Gå til dette repositoriet: https://github.com/uit-econ/coursepage_template 
 2. Klikk på "Use this template" og "Create new repository" ![image](https://uit-econ.github.io/images/createnewrepo.png)
-4. **VIKTIG!** Endre "Owner" til organisasjonen du akkurat har skapt. ![image](https://uit-econ.github.io/images/reposettings.png)
+4. **VIKTIG!** Endre "Owner" til organisasjonen du akkurat har skapt.<br> ![image](https://uit-econ.github.io/images/reposettings.png)
 3. Gi repoen akkurat samme navn som organisasjonen, men legg til ".github.io" på slutten av navnet.<br>
 	For eksempel, om organisasjonsnavnet var "uit-sok-1006-v23", blir reponavnet "uit-sok-1006-v23.github.io".<br>
 	Hensikten med denne navngivingen er at denne repoen automatisk skal bli startsiden til organisasjonen.  
