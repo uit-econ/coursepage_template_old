@@ -24,7 +24,7 @@ The first thing we need to do is to create an "organization", which will own the
 	5. Enter "UiT The Arctic University of Norway" as name of institution.<br><br>
 	6. Accept the terms and click "Next"<br><br> ![image](https://uit-econ.github.io/images/setup.png)<br><br>
 6. Add the github usernames of the colleagues that are involved in the course and click "Complete setup"<br><br> ![image](https://uit-econ.github.io/images/addcolleagues.png)
-7. Enter your github password <br><br> ![image](https://uit-econ.github.io/images/password.png)
+7. If needed, enter your github password <br><br> ![image](https://uit-econ.github.io/images/password.png)
 8. Click your icon in the upper right corner, and select "Your organizations"<br><br> ![image](https://uit-econ.github.io/images/selectorganizations.png)<br><br>
 9. Click on the organization you just created<br><br>
 		
