@@ -12,8 +12,7 @@
 The first thing we need to do is to create an "organization", which will own the course page. You do this as follows:
 
 1. Log in to github.com
-2. Click on your username in the left panel 
-   (if you don't se your user name, type in "github.com" in the web address field")
+2. Go to https://github.com/organizations/plan
 3. Select "Create organization" ![image](https://uit-econ.github.io/images/createorg.png)
 4. Choose the "Create a free organization" option <br><br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
 5. Use the following setup:
