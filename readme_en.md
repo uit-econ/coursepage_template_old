@@ -30,13 +30,13 @@ The first thing we need to do is to create an "organization", which will own the
 		
 ## 2. Create the course repository (repo)
 
-1. In the organization menu, click "Repositories", and click "Create a new repository"<br><br> ![image](https://uit-econ.github.io/images/new_repo.png)
-2. In the "Repository template" dropdown, select "uit-econ/coursepage_template"<br> ![image](https://uit-econ.github.io/images/reposettings.png)
-4. **IMPORTANT!** Change the "Owner" to the organization you just created. 
-3. Name the repo exactly the same as the organization name, but append ".github.io" to the name.<br>
+1. Go to this repository: https://github.com/uit-econ/coursepage_template 
+2. Click "Use this template" and "Create new repository" ![image](https://uit-econ.github.io/images/createnewrepo.png)
+3. **IMPORTANT!** Change the "Owner" to the organization you just created.  ![image](https://uit-econ.github.io/images/reposettings.png)
+4. Name the repo exactly the same as the organization name, but append ".github.io" to the name.<br>
 For example, if your organization name was "uit-sok-1006-v23", the course repository should be "uit-sok-1006-v23.github.io".<br>
 The purpose of this is to make the repository the default page of the organization. 
-4. Select the "Public" option and click "Create repository" 
+5. Select the "Public" option and click "Create repository" 
 		
 ## 3. View the repo homepage
 1. Locate the "github-pages" link down to the right in your repository, and click it.<br><br>
