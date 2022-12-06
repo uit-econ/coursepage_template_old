@@ -13,7 +13,7 @@ The first thing we need to do is to create an "organization", which will own the
 
 1. Log in to github.com
 2. Go to https://github.com/organizations/plan
-3. Select "Create organization" ![image](https://uit-econ.github.io/images/createorg.png)
+3. Select "Create organization" 
 4. Choose the "Create a free organization" option <br><br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
 5. Use the following setup:
 	1. Name your organization using the naming convention<br><br> 
