@@ -24,15 +24,15 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 	5. Skriv inn "UiT The Arctic University of Norway" som navn på institusjonen.<br><br>
 	6. Aksepter betingelesene og klikk "Next"<br><br> ![image](https://uit-econ.github.io/images/setup.png)<br><br>
 6. Legg til kollegger som er med på kurset og klikk "Complete setup"<br><br> ![image](https://uit-econ.github.io/images/addcolleagues.png)
-7. Skriv inn githubpassordet <br><br> ![image](https://uit-econ.github.io/images/password.png)
+7. Om nødvendig, skriv inn githubpassordet <br><br> ![image](https://uit-econ.github.io/images/password.png)
 8. Klikk på brukerikonet i øverste høyre hjørne, og klikk på "Your organizations"<br><br> ![image](https://uit-econ.github.io/images/selectorganizations.png)<br><br>
 9. Klikk på organisasjonen du akkurat har skapt<br><br>
 		
 ## 2. Lage kursets repositorie (repo)
 
-1. I organisasjonsmenyen, klikk "Repositories", og klikk "Create a new repository"<br><br> ![image](https://uit-econ.github.io/images/new_repo.png)
-2. I nedtrekksmenyen "Repository template", velg "uit-econ/coursepage_template"<br> ![image](https://uit-econ.github.io/images/reposettings.png)
-4. **VIKTIG!** Endre "Owner" til organisasjonen du akkurat har skapt. 
+1. Gå til dette repositoriet: https://github.com/uit-econ/coursepage_template 
+2. Klikk på "Use this template" og "Create new repository" ![image](https://uit-econ.github.io/images/createnewrepo.png)
+4. **VIKTIG!** Endre "Owner" til organisasjonen du akkurat har skapt. ![image](https://uit-econ.github.io/images/reposettings.png)
 3. Gi repoen akkurat samme navn som organisasjonen, men legg til ".github.io" på slutten av navnet.<br>
 	For eksempel, om organisasjonsnavnet var "uit-sok-1006-v23", blir reponavnet "uit-sok-1006-v23.github.io".<br>
 	Hensikten med denne navngivingen er at denne repoen automatisk skal bli startsiden til organisasjonen.  
