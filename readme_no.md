@@ -80,7 +80,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra[hovedsiden](https://uit-
 	Bytt ut lenken med lenken til kurrssiden du nettopp laget. <br><br>
 	* Dersom siden *inneholder* en kursside, vil du ikke finne lenken over. Siden i redigeringsmodus vil se slik ut:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
 		I så fall fjerner du emnebeskrivelsen (kopier den eventuelt til kurssiden du nettopp har laget) og lim inn koden over. Lim inn adressen til kursets hjemmesiden i stedet for `bytt ut med lenken til din kursside`.  <br><br>
-4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be en med rettigheter om å akseptere din "pull request"
+4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
 
 ## 6. Embed course page into the Canvas room
 Slik bygger du kursets hjemmeside inn i Canvas:
