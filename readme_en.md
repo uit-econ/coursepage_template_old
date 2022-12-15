@@ -80,6 +80,7 @@ In order for your course page to be available from the [main page](https://uit-e
 	Replace the link with the one to the homepage you created in step 3.<br><br>
 	* If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
 	In that case, remove the description (copy it and use it on course homepage you created if you want) and paste the code above, with the course page address in stead of `replace with the link to your github course page`.  <br><br>
+	4. When you save (commit) you will get a question about making a "pull request", if you do not have write privileges. Push the button and ask a collegue with write privileges to accept your "pull request". 
 
 ## 6. Embed course page into the Canvas room
 This will show you how you embed the course page into Canvas. 
