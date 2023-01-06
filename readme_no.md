@@ -12,7 +12,7 @@
 Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. Du kan gjøre dette som følger:
 
 1. Logg in på github.com
-2. Gå til [https://github.com/organizations/plan](https://github.com/organizations/plan){:target="blank"}
+2. Gå til [https://github.com/organizations/plan](https://github.com/organizations/plan){:target="blank" rel="noopener"}
 3. Velg "Create organization"
 4. Velg "Create a free organization" <br><br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
 5. Bruk følgende oppsett:
