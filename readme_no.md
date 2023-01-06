@@ -12,7 +12,7 @@
 Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. Du kan gjøre dette som følger:
 
 1. Logg in på github.com
-2. Gå til https://github.com/organizations/plan
+2. Gå til [https://github.com/organizations/plan](https://github.com/organizations/plan)
 3. Velg "Create organization"
 4. Velg "Create a free organization" <br><br> ![image](https://uit-econ.github.io/images/createfreeorg.png)<br><br>
 5. Bruk følgende oppsett:
@@ -30,7 +30,7 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 		
 ## 2. Lage kursets repositorie (repo)
 
-1. Gå til dette repositoriet: https://github.com/uit-econ/coursepage_template 
+1. Gå til dette repositoriet: [https://github.com/uit-econ/coursepage_template](https://github.com/uit-econ/coursepage_template)
 2. Klikk på "Use this template" og "Create new repository" ![image](https://uit-econ.github.io/images/createnewrepo.png)
 4. **VIKTIG!** Endre "Owner" til organisasjonen du akkurat har skapt.<br> ![image](https://uit-econ.github.io/images/reposettings.png)
 3. Gi repoen akkurat samme navn som organisasjonen, men legg til ".github.io" på slutten av navnet.<br>
