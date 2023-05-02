@@ -6,7 +6,7 @@
 </div>
 
 # How to set up a course page
-If you need an introduction to git, [you can find one here (Norwegian, includes an introduction to Python)](https://espensirnes.github.io/notebooks/html/0%20-%20installasjon%20og%20tips.html)
+If you need an introduction to git, [you can find one here (in Norwegian, includes an introduction to Python)](https://espensirnes.github.io/notebooks/html/0%20-%20installasjon%20og%20tips.html)
 
 ## 1. Create an organization
 
