@@ -4,8 +4,11 @@
 <div align="right">
 	<a href="readme_en.html"><img src="https://uit-econ.github.io/images/Norway.png"></a>
 </div>
+
+
 										   
 # Hvordan lage en kursside
+Om du trenger en innføring i github, [finner du en her](https://espensirnes.github.io/notebooks/html/0%20-%20installasjon%20og%20tips.html)
 
 ## 1. Lage en organisasjon
 
