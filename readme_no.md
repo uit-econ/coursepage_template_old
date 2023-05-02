@@ -8,7 +8,7 @@
 
 										   
 # Hvordan lage en kursside
-Om du trenger en innføring i github, [finner du en her](https://espensirnes.github.io/notebooks/html/0%20-%20installasjon%20og%20tips.html)
+Om du trenger en innføring i git, [finner du en her (inkluderer innføring i python)](https://espensirnes.github.io/notebooks/html/0%20-%20installasjon%20og%20tips.html)
 
 ## 1. Lage en organisasjon
 
