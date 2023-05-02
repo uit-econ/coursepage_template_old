@@ -63,7 +63,7 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 	**VIKTIG!** Om du lager en ny markdownfil (.md), legg alltid inn **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** i toppen av dokumentet. Dette sørger for at venstremenyen og topp-boksen lastes med siden.<br><br>
 
 Unntaket fra denne regelen er at "start.md" ***aldri*** skal ha uttrykket med kurvparenteser øverst.<br><br>
-Fuiene "index.md" og "index_open.md" skal ikke redigeres. <br><br>
+Filene "index.md" og "index_open.md" skal ikke redigeres. <br><br>
 
 ## 5. Redigere hovedsiden for *Samfunnsøkonomi med datavitenskap*
 For å gjøre kurssiden tilgjengelig for studentene fra[hovedsiden](https://uit-econ.github.io/), må du redigere emnet der. 
