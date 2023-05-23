@@ -62,14 +62,14 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 	**MERK!** Markupfiler konverteres automatisk til html-filer. Om du ønsker å lenke til en markdown \*.md-fil, må du derfor endre filendelsen fra ".md" til ".html". <br><br> ![image](https://uit-econ.github.io/images/editnavigate.png)
 
 3. Det er allerede maler for startsiden ("start.md"), forelesningsplan ("forelesningsplan.md"),
-	seminarer ("seminarplan.md") and innleveringer ("innleveringer.md"). Du kan see av disse eksemplene hvordan du lager lenker og tabeller. <br><br>
+	seminarer ("seminarplan.md") and innleveringer ("innleveringer.md"). Du kan se av disse eksemplene hvordan du lager lenker og tabeller. <br><br>
 	**VIKTIG!** Om du lager en ny markdownfil (.md), legg alltid inn **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** i toppen av dokumentet. Dette sørger for at venstremenyen og topp-boksen lastes med siden.<br><br>
 
 Unntaket fra denne regelen er at "start.md" ***aldri*** skal ha uttrykket med kurvparenteser øverst.<br><br>
 Filene "index.md" og "index_open.md" skal ikke redigeres. <br><br>
 
 ## 5. Redigere hovedsiden for *Samfunnsøkonomi med datavitenskap*
-For å gjøre kurssiden tilgjengelig for studentene fra[hovedsiden](https://uit-econ.github.io/), må du redigere emnet der. 
+For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit-econ.github.io/), må du redigere emnet der. 
 
 1. Gå til  `\_portfolio`-mappen i `uit-econ.github.io`-repoen under hovedside-organisasjonen `uit-econ` her: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
 2. Klikk på kurset du er ansvarlig for, og rediger det (klikk på penn-symbolet oppe til høyre).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
