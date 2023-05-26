@@ -75,23 +75,21 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 2. Klikk på kurset du er ansvarlig for, og rediger det (klikk på penn-symbolet oppe til høyre).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
 3. Dokumentet du nettopp åpnet kan inneholde en kursbeskrivelse, eller ikke  <br>
 	* Dersom det ikke er kursbeskrivelse i dokumentet, Vil du finne følgende kode der:<br><br>
+	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
+			<br>
+			---<br>
+			title: Sok-1006 Mikroøkonomi - Økonomisk atferd, markeder og priser     <br>
+			subtitle: 10 STP  <br>
+			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
+			category: semester2   <br><br>
+			caption:  <br>
+			  title: Sok-1006  <br>
+			  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
+			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+			---  <br>
 
-<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
-		<br>
-		---<br>
-		title: Sok-1006 Mikroøkonomi - Økonomisk atferd, markeder og priser     <br>
-		subtitle: 10 STP  <br>
-		image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
-		category: semester2   <br><br>
-		caption:  <br>
-		  title: Sok-1006  <br>
-		  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
-		  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
-		---  <br>
-
-</div>
-<br><br>
-	
+	</div>
+	<br><br>
 	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
 	* Dersom siden *inneholder* en kursside, vil du ikke finne lenken over. Siden i redigeringsmodus vil se slik ut:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
 		I så fall bytter du ut kursbeskrivelsen med teksten over, og ender kurskodene der det står sok-xxx (fire steder) samt semester og i `window.open('https://uit-sok-xxx-<semester><år>.github.io/')`.  <br><br>
