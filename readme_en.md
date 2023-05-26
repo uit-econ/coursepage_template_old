@@ -72,15 +72,33 @@ In order for your course page to be available from the [main page](https://uit-e
 1. Go to the `\_portfolio` folder in the `uit-econ.github.io` repository in the main page organization `uit-econ` here: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
 2. Click on the course you are responsible for, and edit it (click on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
 3. The document you just opened may contain a course description, or not. <br>
-	* If it does not contain a course description, you will find a code that look like this in the document:<br><br>
-	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160"><br>
-	---<br>
-	&#123;% include nettsideApnerTop.html %&#125;<br>
-	window.open('replace with the link to your github course page');<br>
-	<br></div><br><br>
-	Replace the link with the one to the homepage you created in step 3.<br><br>
-	* If it does contain a course description, you will not find the link above. The page in edit mode will look like this:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
-	In that case, remove the description (copy it and use it on course homepage you created if you want) and paste the code above, with the course page address in stead of `replace with the link to your github course page`.  <br><br>
+4. The document you just opened may contain a course description, or not. In any case, this is how it is supposed to look:  <br>
+	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
+			<br>
+			---<br>
+			title: Sok-xxxx &lt;Navn på kurs&gt;     <br>
+			subtitle: 10 STP  <br>
+			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
+			category: semester2   <br><br>
+			caption:  <br>
+			  title: Sok-xxxx  <br>
+			  subtitle: &lt;Navn på kurs&gt;  <br>
+			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+			---  <br>
+			&#123;% include nettsideApnerTop.html %&#125;   <br>
+			window.open('https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/');   <br><br>
+			&#123;% include nettsideApnerMid.html %&#125;   <br>
+			observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );    <br><br>
+			&#123;% include nettsideApnerBunn.html %&#125;   <br>
+	</div>
+	<br><br>
+	* If there was a course description there, you can copy it to "start.md" in the course repository you just created, if you want. 
+	* If the page does not look like above, you should do the following 
+		* delete all text
+		* past the text above
+		* substitute sok-xxxx with the course code of the course, everywhere.
+		* substitute 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' with the link to the github web page of the course. Be aware that github often automatically adds code when you paste linke, so that the text is changed to `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. The link above should however be on the form  `https://uit-sok-1006-v23.github.io/`. Remember quotes. 
+		* substitute the two occurencies of &lt;Navn på kurs&gt; with the course name.
 	4. When you save (commit) you will get a question about making a "pull request", if you do not have write privileges. Push the button and ask a collegue with write privileges to accept your "pull request". 
 
 ## 6. Embed course page into the Canvas room
