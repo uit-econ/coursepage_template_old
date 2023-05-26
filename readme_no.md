@@ -89,9 +89,9 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 		  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 		---  <br>
 		&#123;% include nettsideApnerTop.html %&#125&#59   <br>
-		window.open('https://uit-sok-xxx-<semester><år>.github.io/');  <br><br>
+		window.open('https://uit-sok-xxx-<semester><år>.github.io/')&#59   <br><br>
 		&#123;% include nettsideApnerMid.html %&#125&#59   <br>
-		observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );   <br><br>
+		observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } )&#59    <br><br>
 		&#123;% include nettsideApnerBunn.html %&#125&#59   <br>
 </div>
 <br><br>
