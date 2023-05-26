@@ -88,10 +88,10 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;&semi;   <br>
-			('https://uit-sok-xxx-<semester><år>.github.io/')&semi;   <br><br>
+			window.open&lpar;'https://uit-sok-xxx-<semester><år>.github.io/'&rpar;&semi;   <br><br>
 			&#123;% include nettsideApnerMid.html %&#125;&semi;   <br>
-
-
+			observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } )&semi;    <br><br>
+			&#123;% include nettsideApnerBunn.html %&#125;&semi;   <br>
 	</div>
 	<br><br>
 	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
