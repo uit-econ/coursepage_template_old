@@ -87,11 +87,11 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 			  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
 			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
-			&#123;% include nettsideApnerTop.html %&#125;&semi;   <br>
-			
-			&#123;% include nettsideApnerMid.html %&#125;&semi;   <br>
-			observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } )&semi;    <br><br>
-			&#123;% include nettsideApnerBunn.html %&#125;&semi;   <br>
+			&#123;% include nettsideApnerTop.html %&#125;   <br>
+			window.open('lenke til kurset github hjemmeside');   <br><br>
+			&#123;% include nettsideApnerMid.html %&#125;   <br>
+			observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );    <br><br>
+			&#123;% include nettsideApnerBunn.html %&#125;   <br>
 	</div>
 	<br><br>
 	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
