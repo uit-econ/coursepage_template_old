@@ -92,7 +92,7 @@ window.open('https://uit-sok-xxx-<semester><år>.github.io/');  <br><br>
 &#123;% include nettsideApnerMid.html %&#125;   <br>
 observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );   <br><br>
 &#123;% include nettsideApnerBunn.html %&#125;  <br>
-<br></div><br><br>
+</div><br><br>
 	
 	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
 	* Dersom siden *inneholder* en kursside, vil du ikke finne lenken over. Siden i redigeringsmodus vil se slik ut:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
