@@ -88,7 +88,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;&semi;   <br>
-			window.open("https://uit-sok-xxx-<semester><år>.github.io/")&semi;   <br><br>
+			
 			&#123;% include nettsideApnerMid.html %&#125;&semi;   <br>
 
 
