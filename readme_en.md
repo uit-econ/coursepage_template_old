@@ -71,8 +71,7 @@ In order for your course page to be available from the [main page](https://uit-e
 
 1. Go to the `\_portfolio` folder in the `uit-econ.github.io` repository in the main page organization `uit-econ` here: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
 2. Click on the course you are responsible for, and edit it (click on pen symbol up to the right).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
-3. The document you just opened may contain a course description, or not. <br>
-4. The document you just opened may contain a course description, or not. In any case, this is how it is supposed to look:  <br>
+3. The document you just opened may contain a course description, or not. In any case, this is how it is supposed to look:  <br>
 	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
 			<br>
 			---<br>
