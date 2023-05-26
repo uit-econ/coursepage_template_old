@@ -73,30 +73,33 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 
 1. Gå til  `\_portfolio`-mappen i `uit-econ.github.io`-repoen under hovedside-organisasjonen `uit-econ` her: [uit-econ/uit-econ.github.io/\_portfolio/](https://github.com/uit-econ/uit-econ.github.io/tree/main/_portfolio)<br><br>![image](https://uit-econ.github.io/images/editmainpage.png)<br><br>
 2. Klikk på kurset du er ansvarlig for, og rediger det (klikk på penn-symbolet oppe til høyre).<br><br>![image](https://uit-econ.github.io/images/editmainpage2.png)<br><br>
-3. Dokumentet du nettopp åpnet kan inneholde en kursbeskrivelse, eller ikke  <br>
-	* Dersom det ikke er kursbeskrivelse i dokumentet, Vil du finne følgende kode der:<br><br>
+3. Dokumentet du nettopp åpnet kan inneholde en kursbeskrivelse, eller ikke. Uansett, skal siden se slik ut nå:  <br>
 	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
 			<br>
 			---<br>
-			title: Sok-1006 Mikroøkonomi - Økonomisk atferd, markeder og priser     <br>
+			title: Sok-xxxx <Navn på kurs>     <br>
 			subtitle: 10 STP  <br>
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
 			category: semester2   <br><br>
 			caption:  <br>
-			  title: Sok-1006  <br>
-			  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
+			  title: Sok-xxxx  <br>
+			  subtitle: <Navn på kurs>  <br>
 			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;   <br>
-			window.open('lenke til kurset github hjemmeside');   <br><br>
+			window.open('https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/');   <br><br>
 			&#123;% include nettsideApnerMid.html %&#125;   <br>
 			observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );    <br><br>
 			&#123;% include nettsideApnerBunn.html %&#125;   <br>
 	</div>
 	<br><br>
-	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
-	* Dersom siden *inneholder* en kursside, vil du ikke finne lenken over. Siden i redigeringsmodus vil se slik ut:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
-		I så fall bytter du ut kursbeskrivelsen med teksten over, og ender kurskodene der det står sok-xxx (fire steder) samt semester og i `window.open('https://uit-sok-xxx-<semester><år>.github.io/')`.  <br><br>
+	* Om det lå en kursbeskrivelse, kan du eventuelt kopiere den og lime innholdet inn i "start.md" i kursets github repositorie. 
+	* Dersom siden ikke ser ut som ovenfor, så 
+		* sletter du all tekst som er der
+		* bytter sok-xxxx med kurskoden alle steder
+		* bytter ut 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' med lenken til kursets githubside
+	* Vær obs på at github automatisk legger til kode når du limer inn lenken slik at den kan bli seende ut som `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. Du skal imidlertid kun lime inn selve adressen på formen  `https://uit-sok-1006-v23.github.io/`
+	
 4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
 
 ## 6. Embed course page into the Canvas room
