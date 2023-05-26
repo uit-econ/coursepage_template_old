@@ -76,7 +76,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 3. Dokumentet du nettopp åpnet kan inneholde en kursbeskrivelse, eller ikke  <br>
 	* Dersom det ikke er kursbeskrivelse i dokumentet, Vil du finne følgende kode der:<br><br>
 
-	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
+<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
 		<br>
 		---<br>
 		title: Sok-1006 Mikroøkonomi - Økonomisk atferd, markeder og priser     <br>
@@ -92,8 +92,8 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 		window.open('https://uit-sok-xxx-<semester><år>.github.io/');  <br><br>
 		&#123;% include nettsideApnerMid.html %&#125;   <br>
 		observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );   <br><br>
-		&#123;% include nettsideApnerBunn.html %&#125;  <br>
-	</div>
+		&#123;% include nettsideApnerBunn.html %&#125  <br>
+</div>
 <br><br>
 	
 	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
