@@ -88,11 +88,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 		  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
 		  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 		---  <br>
-		&#123;% include nettsideApnerTop.html %&#125;&semi;   <br>
-		window.open('https://uit-sok-xxx-<semester><år>.github.io/')&semi;   <br><br>
-		&#123;% include nettsideApnerMid.html %&#125;&semi;   <br>
-		observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } )&semi;    <br><br>
-		&#123;% include nettsideApnerBunn.html %&#125;&semi;   <br>
+
 </div>
 <br><br>
 	
