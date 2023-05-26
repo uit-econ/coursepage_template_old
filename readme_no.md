@@ -77,13 +77,13 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160">
 			<br>
 			---<br>
-			title: Sok-xxxx <Navn på kurs>     <br>
+			title: Sok-xxxx &lt;Navn på kurs&gt;     <br>
 			subtitle: 10 STP  <br>
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
 			category: semester2   <br><br>
 			caption:  <br>
 			  title: Sok-xxxx  <br>
-			  subtitle: <Navn på kurs>  <br>
+			  subtitle: &lt;Navn på kurs&gt;  <br>
 			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;   <br>
@@ -96,8 +96,10 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 	* Om det lå en kursbeskrivelse, kan du eventuelt kopiere den og lime innholdet inn i "start.md" i kursets github repositorie. 
 	* Dersom siden ikke ser ut som ovenfor, så 
 		* sletter du all tekst som er der
+		* limer inn teksten ovenfor
 		* bytter sok-xxxx med kurskoden alle steder
 		* bytter ut 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' med lenken til kursets githubside
+		* bytter ut de to stedene det står &lt;Navn på kurs&gt; med navn på kurset
 	* Vær obs på at github automatisk legger til kode når du limer inn lenken slik at den kan bli seende ut som `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. Du skal imidlertid kun lime inn selve adressen på formen  `https://uit-sok-1006-v23.github.io/`
 	
 4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
