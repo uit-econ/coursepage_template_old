@@ -98,9 +98,8 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 		* sletter du all tekst som er der
 		* limer inn teksten ovenfor
 		* bytter sok-xxxx med kurskoden alle steder
-		* bytter ut 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' med lenken til kursets githubside
+		* bytter ut 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' med lenken til kursets githubside. Vær obs på at github automatisk legger til kode når du limer inn lenken slik at den kan bli seende ut som `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. Du skal imidlertid kun lime inn selve adressen på formen  `https://uit-sok-1006-v23.github.io/`. Husk anførselstegn. 
 		* bytter ut de to stedene det står &lt;Navn på kurs&gt; med navn på kurset
-	* Vær obs på at github automatisk legger til kode når du limer inn lenken slik at den kan bli seende ut som `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. Du skal imidlertid kun lime inn selve adressen på formen  `https://uit-sok-1006-v23.github.io/`
 	
 4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
 
