@@ -77,12 +77,29 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 	* Dersom det ikke er kursbeskrivelse i dokumentet, Vil du finne følgende kode der:<br><br>
 	<div style="background-color:#f6f8fa;font-family:Courier; padding-left:160"><br>
 	---<br>
-	&#123;% include nettsideApnerTop.html %&#125;<br>
-	window.open('bytt ut med lenken til din kursside');<br>
+title: Sok-1006 Mikroøkonomi - Økonomisk atferd, markeder og priser     <br>
+subtitle: 10 STP  <br>
+image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
+category: semester2   <br><br>
+
+caption:  <br>
+  title: Sok-1006  <br>
+  subtitle: Mikroøkonomi - Økonomisk atferd, markeder og priser  <br>
+  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+---  <br>
+&#123;% include nettsideApnerTop.html %&#123;  <br>
+window.open('https://uit-sok-xxx-<semester><år>.github.io/');  <br><br>
+
+&#123;% include nettsideApnerMid.html %&#123;   <br>
+observer.observe(document.getElementById("Sok-xxxx").children[0], { attributes: true } );   <br><br>
+
+&#123;% include nettsideApnerBunn.html %&#123;  <br>
+	
+
 	<br></div><br><br>
-	Bytt ut lenken med lenken til kurrssiden du nettopp laget. <br><br>
+	Bytt legg inn lenken til kurrssiden du nettopp laget og xxxx med kurs <br><br>
 	* Dersom siden *inneholder* en kursside, vil du ikke finne lenken over. Siden i redigeringsmodus vil se slik ut:<br><br>![image](https://uit-econ.github.io/images/editmainpage_content.png)<br><br>
-		I så fall fjerner du emnebeskrivelsen (kopier den eventuelt til kurssiden du nettopp har laget) og lim inn koden over. Lim inn adressen til kursets hjemmesiden i stedet for `bytt ut med lenken til din kursside`.  <br><br>
+		I så fall bytter du ut kursbeskrivelsen med teksten over, og ender kurskodene der det står sok-xxx (fire steder) samt semester og i `window.open('https://uit-sok-xxx-<semester><år>.github.io/')`.  <br><br>
 4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
 
 ## 6. Embed course page into the Canvas room
