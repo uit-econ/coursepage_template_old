@@ -78,11 +78,11 @@ In order for your course page to be available from the [main page](https://uit-e
 			title: Sok-xxxx &lt;Navn på kurs&gt;     <br>
 			subtitle: 10 STP  <br>
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
-			category: semester2   <br><br>
+			category: semesterX   <br><br>
 			caption:  <br>
-			  title: Sok-xxxx  <br>
-			  subtitle: &lt;Navn på kurs&gt;  <br>
-			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+			&emsp title: Sok-xxxx  <br>
+			&emsp subtitle: &lt;Navn på kurs&gt;  <br>
+			&emsp thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;   <br>
 			window.open('https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/');   <br><br>
@@ -98,6 +98,7 @@ In order for your course page to be available from the [main page](https://uit-e
 		* substitute sok-xxxx with the course code of the course, everywhere.
 		* substitute 'https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/' with the link to the github web page of the course. Be aware that github often automatically adds code when you paste linke, so that the text is changed to `[https://uit-sok-1006-v23.github.io/](https://uit-sok-1006-v23.github.io/)'`. The link above should however be on the form  `https://uit-sok-1006-v23.github.io/`. Remember quotes. 
 		* substitute the two occurencies of &lt;Navn på kurs&gt; with the course name.
+		* substitute X in semesterX with the semester the course shall go
 	4. When you save (commit) you will get a question about making a "pull request", if you do not have write privileges. Push the button and ask a collegue with write privileges to accept your "pull request". 
 
 ## 6. Embed course page into the Canvas room
