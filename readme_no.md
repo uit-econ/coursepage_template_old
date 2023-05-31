@@ -80,7 +80,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 			title: Sok-xxxx &lt;Navn på kurs&gt;     <br>
 			subtitle: 10 STP  <br>
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
-			category: semester2   <br><br>
+			category: semesterX   <br><br>
 			caption:  <br>
 			&emsp; title: Sok-xxxx  <br>
 			&emsp; subtitle: &lt;Navn på kurs&gt;  <br>
