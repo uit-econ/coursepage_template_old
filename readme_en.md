@@ -80,9 +80,9 @@ In order for your course page to be available from the [main page](https://uit-e
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
 			category: semesterX   <br><br>
 			caption:  <br>
-			&emsp title: Sok-xxxx  <br>
-			&emsp subtitle: &lt;Navn på kurs&gt;  <br>
-			&emsp thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+			&emsp; title: Sok-xxxx  <br>
+			&emsp; subtitle: &lt;Navn på kurs&gt;  <br>
+			&emsp; thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;   <br>
 			window.open('https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/');   <br><br>
