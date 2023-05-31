@@ -82,9 +82,9 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 			image: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg   <br>
 			category: semester2   <br><br>
 			caption:  <br>
-			  title: Sok-xxxx  <br>
-			  subtitle: &lt;Navn på kurs&gt;  <br>
-			  thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
+			&emsp title: Sok-xxxx  <br>
+			&emsp subtitle: &lt;Navn på kurs&gt;  <br>
+			&emsp thumbnail: https://raw.githubusercontent.com/uit-econ/hovedside/main/assets/img/Sok-xxxx.jpg  <br>
 			---  <br>
 			&#123;% include nettsideApnerTop.html %&#125;   <br>
 			window.open('https://uit-sok-xxxx-&lt;semester&gt;&lt;år&gt;.github.io/');   <br><br>
