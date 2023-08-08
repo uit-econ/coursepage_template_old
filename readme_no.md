@@ -104,7 +104,7 @@ For å gjøre kurssiden tilgjengelig for studentene fra [hovedsiden](https://uit
 	
 4. Når du lagrer (commit) vil du få opp spørsmål om å lage en "pull request", om du ikke har skriverettigheter. Trykk på knappen og be kollega med skriverettigheter om å akseptere din "pull request"
 
-## 6. Embed course page into the Canvas room
+## 6. Bygg kurset inn i hjemmesiden på canvas
 Slik bygger du kursets hjemmeside inn i Canvas:
 1. Gå til [Canvas](https://uit.instructure.com/) og velg kurset som du er ansvarlig for <br><br>![image](https://uit-econ.github.io/images/canvasorig.png)<br><br>
 2. Klikk "Rediger"-knappen oppe til høyre, og klikk så "< >" symbolet (rediger html) nede til høyre <br><br>![image](https://uit-econ.github.io/images/canvashtmledit.png)<br><br>
